@@ -1,18 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html language="en">
    <head>
       <title>Newspaper</title>
       <style> 
 		body {
-		margin: 0;
+			margin: 0;
 		}
 		
 		.box {
-            padding: 10px;
-            text-align: center;
-            border: 3px solid #0d0d0d;
+          		padding: 10px;
+			text-align: center;
+        		border: 3px solid #0d0d0d;
 			background-color: #0d0d0d;
-         }
+     	    	}
+
+		.logo-container {
+   			display: flex;
+    			align-items: center;
+		}
+
+		.logo {
+  			width: 50px; /* Adjust width as needed */
+    			height: auto;
+		}
+
          
          h2 {
             text-align: center;
@@ -23,37 +34,40 @@
             font-family: sans-serif;
         }
 
-		.nav-h1 li {
+	.nav ul {
             width: 150px;
             display: inline;
          }
          
-        .nav-h1 a {
-			color: white;
-            padding: 15px 20px;
-            text-align: center;
+        .nav ul li a {
+	 	color: white;
+            	padding: 15px 20px;
+           	text-align: center;
          }
 		 
-		.nav-h1 a:hover {
-            color: #A52A2A;
+	.nav a:hover {
+            	color: #A52A2A;
+		font-weight: bold;
          }
          
         a.nav-active3 {
             color: #A52A2A;
          }		 
 		
-		</style>
-		<body>
-		 
-			<div class="box box-2">
-				<h2 style="color: #A52A2A">Newspaper</h2>
+	</style>
+	<body>
+		<div class="logo-container">
+         		<img src="logo.png" alt="Newspaper Company Logo" class="logo">
+       		</div>
+		<div class="box box-2">
+			<h2 style="color: #A52A2A">Newspaper</h2>
 
-				<nav class="nav-h1">
+			<nav>
 				<ul>
-				   <li><a class="nav-active3" href="#">Home</a></li>
-				   <li><a href="#">Products</a></li>
-				   <li><a href="#">About</a></li>
-				   <li><a href="#">Contact</a></li>
+					<li><a class="nav-active3" href="#">Home</a></li>
+				   	<li><a href="#">Products</a></li>
+				  	 <li><a href="#">About</a></li>
+				 	  <li><a href="#">Contact</a></li>
 				</ul>
 				</nav>
 				
