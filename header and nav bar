@@ -24,11 +24,6 @@
             background-color: #0d0d0d;
         }
 
-        h2 {
-            text-align: center;
-            font-family: "Lucida Console", "Courier New", monospace;
-        }
-
         .box-2:hover h2 {
             font-family: sans-serif;
         }
@@ -88,11 +83,11 @@
 
 <body>
     <div class="logo-container">
-        <img class="logo" src="insert logo here" alt="PDD News Logo">
+        <img class="logo" src="" alt="PDD News Logo">
     </div>
 
     <div class="box box-2">
-        <h2 style="color: #A52A2A">Newspaper</h2>
+        <img class=headertext src="pddnewsheader.png" alt="PDD News">
 
         <div class="nav">
             <ul>
